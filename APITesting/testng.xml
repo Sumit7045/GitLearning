@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Assignment">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="restassuredtestcases.PutRequest"/>
+      <class name="restassuredtestcases.ListResource"/>
+      <class name="restassuredtestcases.GetRequestSingleUserNotFound"/>
+      <class name="restassuredtestcases.PostRequestRegisterUnsuccessful"/>
+      <class name="restassuredtestcases.GetRequest"/>
+      <class name="restassuredtestcases.GetRequestSingleResource"/>
+      <class name="restassuredtestcases.PostRequestRegisterSuccessful"/>
+      <class name="restassuredtestcases.GetRequestSingleResourceNotFound"/>
+      <class name="restassuredtestcases.PostRequestLoginUnsuccessful"/>
+      <class name="restassuredtestcases.PostRequest"/>
+      <class name="restassuredtestcases.PostRequestLoginSuccessful"/>
+      <class name="restassuredtestcases.PatchRequest"/>
+      <class name="restassuredtestcases.GetRequestCucumberStyle"/>
+      <class name="restassuredtestcases.DeleteRequest"/>
+	  <class name="restassuredtestcases.EndToEndAPITest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Assignment -->
